@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://kit.fontawesome.com/b5f32de822.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&family=Jersey+10+Charted&family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@500&family=Outfit:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style type="text/css">
+
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+body{
+		background-color:whitesmoke;
+	}
+	.heads{
+		height:70px;
+		display: flex;
+		justify-content:space-between;
+		align-items:center;
+		background-color:white;
+		color:navy;
+	}
+	.navbar{
+			margin-right: 40px;
+		
+	}
+	.navbar li {
+		display: inline-block;
+		margin-left: 10px;
+		
+	}
+	.ancr{
+		color:navy;
+		text-decoration: none;
+		transition:  ease all 1s;
+	}
+	.ancr:hover{
+		background-color:whitesmoke;
+		border-radius: 10px;
+		padding: 10px 15px;
+	
+	}
+
+
+
+	.containers1
+	{
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: whitesmoke;
+	}
+	.formcontain1
+	{
+		background-color: white;
+		border-radius:10px;
+		padding: 20px 20px;
+		width:300px;
+		box-shadow:2px 4px 7px gray;
+		
+	}
+	form{
+		margin-top:-10px;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	input{
+	margin-bottom:10px;
+	height: 25px;
+	border: none;
+	background-color: whitesmoke;
+	padding: 5px;
+	
+	
+	}
+	input:focus{
+	outline-color:navy;
+	
+	
+	}
+	button{
+		margin-top:	10px;
+		padding: 6px 10px;
+		border-radius: 10px;
+		border:none;
+		color:white;
+		background-color: navy;
+	}
+	#titleq{
+		color:navy;
+		text-align: center;
+	}
+	.last{
+		text-align: center;
+		margin-top: 7px;
+		font-size: 12px;
+		color:navy;
+		text-decoration: none;
+		font-weight: 400px;
+	}
+	
+	label{
+		margin-bottom: 5px;
+		color:gray;
+	}
+	.logo
+	{
+		text-decoration: none;
+		color:navy;
+		
+		
+	}
+	.last:hover{
+		color:indianred;
+	}
+	</style>
+</head>
+
+<body>
+<header class="heads">
+		<div> <a class="logo" href="index.html"><h1>Codenera</h1></a>   </div>
+		<div class="navcontainer">
+			<nav class="navbar">
+					<li> <a class="ancr" href="index.html">Home</a> </li>
+					<li> <a class="ancr" href="#">About Us</a> </li>
+					<li> <a  class="ancr" href="#">Courses</a> </li>
+					<li> <a class="ancr"  href="#">Contact Us</a> </li>
+					<li><a  class="ancr" href="signup.html">Sign Up</a></li>
+					<li><a  class="ancr" href="login.html">Login</a></li>
+			</nav>
+		</div>
+	</header>
+<div class="containers1">
+	<div class="formcontain1">
+		<form action="LoginController" method="post">
+			<h1 id="titleq">Login here</h1>
+			<label>Username or Email</label>
+			<input type="text" name="user" placeholder="Enter your userId">
+			<label>Password</label> 	
+			<input type="password" name="password" placeholder="Enter your password"> 
+			 <button type="submit">Login</button>
+			 <a class="last" href="ForgetPassword.html"> <span  >Forget Password</span>  ? Click Here</a>
+			<a class="last" href="signup.html"> Create Account ? Click Here</a>
+		</form>
+	</div>
+</div>
+	
+</body>
+</html>

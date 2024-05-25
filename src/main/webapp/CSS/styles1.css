@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+.mainpages{
+	height:100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.maincont{
+	width: 300px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 2px 4px 7px gray;
+	padding: 15px 15px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	
+}
+input{
+	margin-bottom: 10px;
+	height: 30px;
+	border: none;
+	background-color: whitesmoke;
+	padding: 15px;
+}
+#btn{
+	background-color: blue;
+	padding: 10px 15px;
+	color:white;
+	border: none;
+}
+.labs{
+	color:gray;
+	
+}

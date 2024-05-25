@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&family=Jersey+10+Charted&family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@500&family=Outfit:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style type="text/css">
+	*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+	.maincont{
+			height: 100vh;
+			background-color:orange;
+			
+	}
+
+		.maindata{
+				background-color: white;
+				border-radius: 10px;
+				box-shadow: 2px 4px 7px gray;
+				padding: 20px 20px;
+				border-bottom: 8px solid navy;
+			
+		}
+			#buttts{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			}
+		#admins{
+			background: navy;
+			padding: 10px 15px;
+			color:white;
+			text-decoration: none;
+			border-radius: 7px;
+		}
+		#forms{
+			margin-top: 20px;
+		}
+		button{
+				background-color: orange;
+				color: white;
+				padding: 10px 15px;
+				border-radius: 7px;
+				outline: none;
+				border: none;
+				
+		}
+		#formss{
+			margin-left: 20px;
+			margin-bottom: 20px;
+			
+		}
+		#homebtn{
+			text-decoration: none;
+			background-color: #66FF00;
+			padding: 10px 15px;
+			margin-left: 20px;
+			border-radius: 7px;
+			
+		}
+</style>
+</head>
+<body>
+	<div class="maincont">
+			
+		<div class="maindata">
+				<h1 style="text-align: center;">Welcome in Dashboard Page</h1>
+				<div id="buttts">
+					<div>
+						<a href="Student.html" id="admins">Add Students</a>
+					</div>
+					
+					<div id="formss">
+						<form action="GetStudentData" method="post" id="forms">
+							<button type="submit">View Students details</button>
+						</form>
+					</div>
+					<div id="homebtn">
+						<a style="text-decoration: none;color:white;" href="index.html">Home</a>
+					</div>
+				</div>
+		</div>
+	</div>
+	
+</body>
+</html>
